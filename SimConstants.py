@@ -1,8 +1,8 @@
-#Constants
-#   Event types:
+# Class of Constants
 
 
 class Const:
+    #   Event types:
     ARRIVAL = "Arrival"
     STOP = "Stop"
     CLEAR = "Clear"
@@ -14,7 +14,7 @@ class Const:
     W = "West"
 
 
-    #Controls
+    #   Controls
     TIME_STEP = .1
     ARRIVAL_TIME = 10
     HUMAN_CLEAR_TIME = 3

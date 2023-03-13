@@ -291,7 +291,7 @@ class Simulation:
             times.append(car.elapsed_time)
         print(times)
 
-    def output_to_CSV(self, name):
+    def output_to_CSV(self, name: str):
         f = open("results\_" + name + ".csv", 'w')
         f.write("Name,Type,Start Time,Elapsed Time,Start Direction,End Direction\n")
         for car in self.completed_cars:
